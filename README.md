@@ -91,11 +91,13 @@ please test your camera and microphone and familiarize yourself with the feature
 
 # Technical setup
 
-##Python and Jupyter
-If you have been admitted to full school participation or if you wish to attack the challenge problems on your own please follow the instructions below. 
+If you have been admitted to full school participation or if you wish to attack the challenge problems on your own please follow the instructions below.
+
+## Python and Jupyter
+ 
 Coding will be done in Python using Jupyter notebooks. Necessary setup has been done for you using Python 3.8 version of Anaconda. 
-   - If you do not have Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads)
-   - 
+   - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads)
+   - Next clone this repo and 
 
 
 
