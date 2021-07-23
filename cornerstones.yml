@@ -198,6 +198,7 @@ dependencies:
     - protobuf==3.17.3
     - psutil==5.8.0
     - pybind11==2.7.0
+    - pylatexenc==2.10
     - pyqubo==1.0.12
     - pyrsistent==0.18.0
     - python-constraint==1.4.0
