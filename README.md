@@ -97,7 +97,7 @@ If you have been admitted to full school participation or if you wish to attack 
  
 Coding will be done in Python using Jupyter notebooks. Necessary setup has been done for you using Python 3.8 version of Anaconda. Please follow the steps below with enough advance before the school to allow for debugging of any issues that may arise. 
    - On Windows 10 we recommend installing [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu 20.04. Further instructions assume access to linux-like teminal (or Mac OSX terminal)
-   - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads);
+   - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads). ON WSL2 use the linux installer.
    - Open the terminal. We recommend turning off the automatic entry into the `base` environment by running: `conda config --set auto_activate_base false`
    - Next clone this repo and go into its directory:
       - `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
@@ -110,6 +110,20 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
       - For jupyter notebook: `jupyter notebook --no-browser`
       - For jupyter lab: `jupyter lab --no-browser`
    - Jupyter will print instructions on which webpage to load - paste the address in your favourite browser to gain accesss to the jupyter notebook or lab
+
+
+## Setting up accounts to access the devices
+
+### IBMQ
+Please set up an account for yourself on [IBM Quantum](https://quantum-computing.ibm.com/) - you will need it to access gate model device to complete the challenges.
+
+### D-Wave
+For access to D-Wave's quantum processing unit you will need an account on Leap - the cloud service from D-Wave. Sign yourself up [here](https://cloud.dwavesys.com/leap/signup). We strongly suggest linking your GitHub account (or creating one and linking it) to
+your Leap account in order to renew this minute every month. Instructions can be found [here](https://support.dwavesys.com/hc/en-us/articles/360003706773-How-Do-I-Get-More-Time-). For this course, we’ll be working in the [Leap Integrated Developer Environment (IDE)](https://ide.dwavesys.io/workspaces/). You
+need a Leap account to access the Leap IDE. Before the course try opening one of the code
+examples and running it! We suggest [maximum cut](https://ide.dwavesys.io/#https://github.com/dwave-examples/maximum-cut) as a good beginner example. Should you wish to download and install D-Wave's Ocean software development kit (SDK) on
+your machine locally follow the introductions[here](https://docs.ocean.dwavesys.com/en/latest/getting_started.html) and Ocean installation instructions [here](https://docs.ocean.dwavesys.com/en/latest/overview/install.html). Note that the `dwave-ocean-sdk` has been installed in the conda environment but the tools have not been set up - you will need to follow the instruction from the ["Set Up Your Environment"](https://docs.ocean.dwavesys.com/en/latest/overview/install.html#set-up-your-environment). You can find a series of instructional videos [here](https://www.youtube.com/playlist?list=PLPvKnT7dgEsuhec_yW9oxcZ6gg9SfRFFV).
+
 
 
 
