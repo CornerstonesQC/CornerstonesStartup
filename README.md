@@ -72,6 +72,31 @@ the [BC Open Textbooks page](https://opentextbc.ca/).
 It is also summarized quite nicely in the [Wikipedia article](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation#Bra-Ket_notation/) (see 2.2 and 2.3)
 
 
-## Logistics
+# Logistics
+Please download, configure, and familiarize yourself with the following tools with ample time before start of the school
+ If you have any trouble, reach out to us on Slack in the #tech-setup channel
+before the sessions start, and we can provide help.
+
+## Slack
+All discussions and management will be done through [Slack](https://slack.com/intl/en-ca/). You should have received an
+invitation to our Slack workspace, so please follow it to create an account. Please use your full
+name as your display name.
+The participants admitted for full participaton will be assigned to small groups expected to work together on the challenges
+ and we will invite you to separate channels so you can discuss amongst yourselves between sessions.
+
+## Zoom
+The lectures themselves will be held on Zoom - links will be provided a few days before the
+sessions. Please [download and install](https://zoom.us/download#client_4meeting) Zoom and create an account. Before the sessions,
+please test your camera and microphone and familiarize yourself with the features.
+
+# Technical setup
+
+##Python and Jupyter
+If you have been admitted to full school participation or if you wish to attack the challenge problems on your own please follow the instructions below. 
+Coding will be done in Python using Jupyter notebooks. Necessary setup has been done for you using Python 3.8 version of Anaconda. 
+   - If you do not have Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads)
+   - 
+
+
 
 
