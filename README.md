@@ -95,9 +95,23 @@ If you have been admitted to full school participation or if you wish to attack 
 
 ## Python and Jupyter
  
-Coding will be done in Python using Jupyter notebooks. Necessary setup has been done for you using Python 3.8 version of Anaconda. 
-   - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads)
-   - Next clone this repo and 
+Coding will be done in Python using Jupyter notebooks. Necessary setup has been done for you using Python 3.8 version of Anaconda. Please follow the steps below with enough advance before the school to allow for debugging of any issues that may arise. 
+   - On Windows 10 we recommend installing [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu 20.04. Further instructions assume access to linux-like teminal (or Mac OSX terminal)
+   - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads);
+   - Open the terminal. We recommend turning off the automatic entry into the `base` environment by running: `conda config --set auto_activate_base false`
+   - Next clone this repo and go into its directory:
+      - `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
+      - `cd CornerstonesStartup`
+   - The yml file containing package information is in this directory. To set up the environment run:
+      - `conda env create -f cornerstones.yml`
+   - Activate the environment:
+      - `conda activate cornerstones`
+   - Now, according to preference, start up jupyter or jupyter lab:
+      - For jupyter notebook: `jupyter notebook --no-browser`
+      - For jupyter lab: `jupyter lab --no-browser`
+   - Jupyter will print instructions on which webpage to load - paste the address in your favourite browser to gain accesss to the jupyter notebook or lab
+
+
 
 
 
