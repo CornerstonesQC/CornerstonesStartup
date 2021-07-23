@@ -10,6 +10,7 @@ dependencies:
   - attrs=21.2.0=pyhd3eb1b0_0
   - babel=2.9.1=pyhd3eb1b0_0
   - backcall=0.2.0=pyhd3eb1b0_0
+  - blas=1.0=mkl
   - bleach=3.3.1=pyhd3eb1b0_0
   - brotlipy=0.7.0=py38h27cfd23_1003
   - ca-certificates=2021.7.5=h06a4308_1
@@ -17,6 +18,7 @@ dependencies:
   - cffi=1.14.6=py38h400218f_0
   - chardet=4.0.0=py38h06a4308_1003
   - cryptography=3.4.7=py38hd23ed53_0
+  - cycler=0.10.0=py38_0
   - dbus=1.13.18=hb2f20db_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.3=py38_0
@@ -29,6 +31,7 @@ dependencies:
   - icu=58.2=he6710b0_3
   - importlib-metadata=3.10.0=py38h06a4308_0
   - importlib_metadata=3.10.0=hd3eb1b0_0
+  - intel-openmp=2021.3.0=h06a4308_3350
   - ipykernel=5.3.4=py38h5ca1d4c_0
   - ipython=7.22.0=py38hb070fc8_0
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
@@ -48,6 +51,8 @@ dependencies:
   - jupyterlab_pygments=0.1.2=py_0
   - jupyterlab_server=2.6.1=pyhd3eb1b0_0
   - jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
+  - kiwisolver=1.3.1=py38h2531618_0
+  - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.35.1=h7274673_9
   - libffi=3.3=he6710b0_2
   - libgcc-ng=9.3.0=h5101ec6_17
@@ -55,11 +60,20 @@ dependencies:
   - libpng=1.6.37=hbc83047_0
   - libsodium=1.0.18=h7b6447c_0
   - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - libtiff=4.2.0=h85742a9_0
   - libuuid=1.0.3=h1bed415_2
+  - libwebp-base=1.2.0=h27cfd23_0
   - libxcb=1.14=h7b6447c_0
   - libxml2=2.9.12=h03d6c58_0
+  - lz4-c=1.9.3=h2531618_0
   - markupsafe=2.0.1=py38h27cfd23_0
+  - matplotlib=3.3.4=py38h06a4308_0
+  - matplotlib-base=3.3.4=py38h62a2d02_0
   - mistune=0.8.4=py38h7b6447c_1000
+  - mkl=2021.3.0=h06a4308_520
+  - mkl-service=2.4.0=py38h7f8727e_0
+  - mkl_fft=1.3.0=py38h42c9631_2
+  - mkl_random=1.2.2=py38h51133e4_0
   - nbclassic=0.2.6=pyhd3eb1b0_0
   - nbclient=0.5.3=pyhd3eb1b0_0
   - nbconvert=6.1.0=py38h06a4308_0
@@ -67,6 +81,9 @@ dependencies:
   - ncurses=6.2=he6710b0_1
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
   - notebook=6.4.0=py38h06a4308_0
+  - numpy-base=1.20.3=py38h74d4b33_0
+  - olefile=0.46=py_0
+  - openjpeg=2.3.0=h05c96fa_1
   - openssl=1.1.1k=h27cfd23_0
   - packaging=21.0=pyhd3eb1b0_0
   - pandocfilters=1.4.3=py38h06a4308_1
@@ -74,6 +91,7 @@ dependencies:
   - pcre=8.45=h295c915_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pillow=8.3.1=py38h2c7a002_0
   - pip=21.1.3=py38h06a4308_0
   - prometheus_client=0.11.0=pyhd3eb1b0_0
   - prompt-toolkit=3.0.17=pyh06a4308_0
@@ -113,6 +131,7 @@ dependencies:
   - zeromq=4.3.4=h2531618_0
   - zipp=3.5.0=pyhd3eb1b0_0
   - zlib=1.2.11=h7b6447c_3
+  - zstd=1.4.9=haebb681_0
   - pip:
     - absl-py==0.13.0
     - antlr4-python3-runtime==4.8
