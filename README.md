@@ -118,12 +118,13 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
 Please set up an account for yourself on [IBM Quantum](https://quantum-computing.ibm.com/) - you will need it to access gate model device to complete the challenges.
 
 ### D-Wave
-For access to D-Wave's quantum processing unit you will need an account on Leap - the cloud service from D-Wave. Sign yourself up [here](https://cloud.dwavesys.com/leap/signup). We strongly suggest linking your GitHub account (or creating one and linking it) to
-your Leap account in order to renew this minute every month. Instructions can be found [here](https://support.dwavesys.com/hc/en-us/articles/360003706773-How-Do-I-Get-More-Time-). For this course, we’ll be working in the [Leap Integrated Developer Environment (IDE)](https://ide.dwavesys.io/workspaces/). You
-need a Leap account to access the Leap IDE. Before the course try opening one of the code
-examples and running it! We suggest [maximum cut](https://ide.dwavesys.io/#https://github.com/dwave-examples/maximum-cut) as a good beginner example. Should you wish to download and install D-Wave's Ocean software development kit (SDK) on
-your machine locally follow the introductions[here](https://docs.ocean.dwavesys.com/en/latest/getting_started.html) and Ocean installation instructions [here](https://docs.ocean.dwavesys.com/en/latest/overview/install.html). Note that the `dwave-ocean-sdk` has been installed in the conda environment but the tools have not been set up - you will need to follow the instruction from the ["Set Up Your Environment"](https://docs.ocean.dwavesys.com/en/latest/overview/install.html#set-up-your-environment). You can find a series of instructional videos [here](https://www.youtube.com/playlist?list=PLPvKnT7dgEsuhec_yW9oxcZ6gg9SfRFFV).
 
+For D-Wave set-up we have this:
+
+### D-Wave
+
+For access to D-Wave's quantum processing unit you will need an account on Leap - the cloud service from D-Wave. Sign yourself up [here](https://cloud.dwavesys.com/leap/signup). We strongly suggest linking your GitHub account (or creating one and linking it) to your Leap account in order to renew this minute every month. Instructions can be found [here](https://support.dwavesys.com/hc/en-us/articles/360003706773-How-Do-I-Get-More-Time-). For this course, we’ll be working in the [Leap Integrated Developer Environment (IDE)](https://ide.dwavesys.io/workspaces/). You need a Leap account to access the Leap IDE. Before the course try opening one of the code examples and running it! We suggest [antennas selection]( https://cloud.dwavesys.com/leap/example-details/222023401/) as a good beginner example. Should you wish to download and install D-Wave's Ocean software development kit (SDK) on your machine locally follow the introductions[here](https://docs.ocean.dwavesys.com/en/latest/getting_started.html) and Ocean installation instructions [here](https://docs.ocean.dwavesys.com/en/latest/overview/install.html). Note that the `dwave-ocean-sdk` has been installed in the conda environment but the tools have not been set up - you will need to follow the instruction from the ["Set Up Your Environment"](https://docs.ocean.dwavesys.com/en/latest/overview/install.html#set-up-your-environment). You can find a series of instructional videos [here](https://www.youtube.com/playlist?list=PLPvKnT7dgEsuhec_yW9oxcZ6gg9SfRFFV).
+If you reside in a country not on the [list](https://support.dwavesys.com/hc/en-us/articles/360051869733-From-What-Countries-Can-I-Access-Leap-) of countries where Leap is accessible from please do install Ocean SDK - you will have to work locally with the simulator and work together with participants whose country is on the list.
 
 
 
