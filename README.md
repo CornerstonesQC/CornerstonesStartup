@@ -119,10 +119,13 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
    - Next clone this repo and go into its directory:
       - `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
       - `cd CornerstonesStartup`
-   - The yml file containing package information is in this directory. To set up the environment run:
-      - `conda env create -f cornerstones.yml`
+   - Create the conda environment using the following command:
+      - `conda create --name cornerstones`
    - Activate the environment:
       - `conda activate cornerstones`
+   - The first time you activate the environment, you will need to install the
+     require packages. This can be done using `pip`:
+      - `python -m pip install -r requirements.txt`
    - Now, according to preference, start up jupyter or jupyter lab:
       - For jupyter notebook: `jupyter notebook --no-browser`
       - For jupyter lab: `jupyter lab --no-browser`
