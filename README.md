@@ -1,4 +1,4 @@
-# Cornerstones of Quantum Computing Pre-reading
+ccc# Cornerstones of Quantum Computing Pre-reading
 
 This document contains the information needed to get you ready for attending the Cornerstone Models of Quantum Computing Summer School.  The initial sections will provide references for the concepts you’ll need to know in advance of the lectures. We'll go over some logistics and finally we'll set up the python environment so that you can attack homework challenges.
 
@@ -120,7 +120,7 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
       - `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
       - `cd CornerstonesStartup`
    - Create the conda environment using the following command:
-      - `conda create --name cornerstones`
+      - `conda create python=3.8 -name cornerstones`
    - Activate the environment:
       - `conda activate cornerstones`
    - The first time you activate the environment, you will need to install the
