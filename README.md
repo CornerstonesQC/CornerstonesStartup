@@ -116,9 +116,10 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
    - On Windows 10 we recommend installing [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu 20.04. Further instructions assume access to linux-like teminal (or Mac OS X terminal)
    - If you do not have Python 3.8 Anaconda set up please set it up using installer apropriate for your system from [here](https://www.anaconda.com/products/individual#Downloads). ON WSL2 use the linux installer.
    - Open the terminal. We recommend turning off the automatic entry into the `base` environment by running: `conda config --set auto_activate_base false`
-   - Next clone this repo and go into its directory:
-      - `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
-      - `cd CornerstonesStartup`
+   - Next clone this repo.
+      - If you have a github account [with loaded ssh key pair](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) this is preferable: `git clone git@github.com:CornerstonesQC/CornerstonesStartup.git`
+      - If you don't have a github account or no ssh key pair loaded, you can clone the repo using https instead: `git clone https://github.com/CornerstonesQC/CornerstonesStartup.git`
+      - Now go into new repo local directory:`cd CornerstonesStartup`
    - Create the conda environment using the following command:
       - `conda create python=3.8 -name cornerstones`
    - Activate the environment:
