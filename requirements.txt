@@ -1,7 +1,10 @@
 jupyterlab
+jupyter
 matplotlib
 pennylane
 qiskit
 pennylane-qiskit
 strawberryfields
 dwave-ocean-sdk
+pylatexenc
+
