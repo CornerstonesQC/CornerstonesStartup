@@ -124,7 +124,7 @@ Coding will be done in Python using Jupyter notebooks. Necessary setup has been 
       `git clone https://github.com/CornerstonesQC/CornerstonesStartup.git`
       - Now go into new repo local directory:`cd CornerstonesStartup`
    - Create the conda environment using the following command:
-      - `conda create python=3.8 --name cornerstones`
+      - `conda create --name cornerstones python=3.8`
    - Activate the environment:
       - `conda activate cornerstones`
    - The first time you activate the environment, you will need to install the
